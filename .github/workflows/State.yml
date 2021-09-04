@@ -1,0 +1,17 @@
+Global $ini = @ScriptDir & "\config.ini"
+Global $mainarray[30][10]
+Global $proxysocket , $proxysocketssl
+Global $GUISHOW = 1
+Global $FUseProxy = False
+Global $SProxyAuthCode = "" ; ???????? ????? ? ???
+
+$mainarray[0][0] = "Hostport"
+$mainarray[0][1] = "Clientsocket"
+$mainarray[0][2] = "Hostsocket"
+$mainarray[0][3] = "Request"
+$mainarray[0][4] = "Hostname"
+$mainarray[0][5] = "Timerhandle connection"
+$mainarray[0][6] = "Blocked"
+$mainarray[0][7] = "State"
+$mainarray[0][8] = "connection type"
+$mainarray[0][9] = "req count"
